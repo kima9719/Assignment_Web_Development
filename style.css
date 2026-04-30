@@ -1,0 +1,80 @@
+/* GENERAL PAGE STYLING */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #222;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background-color: #003366;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+/* NAV LINKS */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* NAV HOVER EFFECT */
+nav a:hover {
+    background-color: #0059b3;
+}
+
+/* PAGE CONTENT AREA */
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+/* HEADINGS */
+h1 {
+    color: #003366;
+    text-align: center;
+}
+
+/* PARAGRAPHS */
+p {
+    font-size: 16px;
+}
+
+/* LIST STYLING */
+ul {
+    font-size: 16px;
+}
+
+/* IMAGE STYLING */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    max-width: 500px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
